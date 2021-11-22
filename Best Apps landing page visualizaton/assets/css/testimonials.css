@@ -1,0 +1,85 @@
+/*-------------------------------
+    1.Section - Text elements header
+    2.Section - Middle pic elements
+    3.Section - Footer text elements
+    3.Devices - @MEDIA
+-------------------------------*/
+
+    /* Section - Text elements header */
+#testimonials {
+    background-image: url("../img/testimonial_pic2.jpg");
+    background-size: cover;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+#testimonials > .container > .row > .col > div {
+    text-align: center;
+}
+#testimonials > .container > .row > .col > div > h2 {
+    text-transform: uppercase;
+    font-size: 63px;
+    margin: 110px 0 28px 0;
+}
+#testimonials > .container > .row > .col > div > h2 + .separator {
+    display: inline-block;
+    width: 151px;
+    height: 2px;
+    margin: 0 0 26px 0;
+}
+#testimonials > .container > .row > .col > div > h2 + .separator + p {
+    margin: 0 0 34px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+#testimonials > .container > .row + .row > .col > div {
+    text-align: center;
+}
+    /* Section - Middle pic elements */
+#testimonials > .container > .row + .row > .col > div > div {
+    display: inline-block;
+    width: 151px;
+    height: 151px;
+    border: 2px solid grey;
+    border-radius: 80px;
+    background-image: url("../img/testimonial_face.jpg");
+    margin: 0 0 5px 0;
+}
+#testimonials > .container > .row + .row > .col > div > div:first-child {
+    cursor: pointer;
+}
+#testimonials > .container > .row + .row > .col > div > div + div {
+    width: 52px;
+    height: 42px;
+    display: block;
+    margin: 0 auto;
+    background-image: url("../img/testimonial_comma.gif");
+    border: none;
+    border-radius: unset;
+}
+
+    /* Section - Footer text elements */
+#testimonials > .container > .row:last-child > .col > div > p:first-child {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 47px 0 62px 0;
+} 
+#testimonials > .container > .row:last-child > .col > div > p:last-child {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin: 62px 0 133px 0;
+    cursor: pointer ;
+}
+
+  /*Devices - @MEDIA*/  
+@media only screen and (min-width:  1200px) {
+      
+}
+@media only screen and (min-width:  992px) {
+        
+}
+@media only screen and (min-width:  768px) {
+    
+}
+@media only screen and (max-width:  767px) {
+    
+}

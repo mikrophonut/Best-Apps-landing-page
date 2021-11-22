@@ -1,0 +1,106 @@
+/*-------------------------------
+    1.Section - Text elements header
+    2.Section - Middle pic elements
+    3.Section - Footer text elements
+    4.Devices - @MEDIA
+-------------------------------*/
+
+    /* Section - Text elements header */
+#news_events > .container > .row:first-child > .col > div {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+#news_events > .container > .row > .col > div > h2 {
+    text-transform: uppercase;
+    font-size: 63px;
+    margin: 110px 0 26px 0;
+}
+#news_events > .container > .row > .col > div > h2 + .separator {
+    display: inline-block;
+    width: 151px;
+    height: 2px;
+    margin: 0 0 27px 0;
+}
+#news_events > .container > .row > .col > div > p {
+    margin: 0 0 23px 0;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+    /* Section - Middle pic elements */
+#news_events > .container > .row:last-child {
+    display: flex;
+}
+#news_events > .container > .row:last-child > .col {
+    margin: 0 auto;
+}
+#news_events > .container > .row + .row > .col > div > div:first-child {
+    width: 336px;
+    height: 250px;
+    background-image: url("../img/event_under_pier.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 5px 4px  grey;
+    border-radius: 5px;
+}
+#news_events > .container > .row:last-child > .col:first-child + .col > div > div:first-child {
+    width: 336px;
+    height: 250px;
+    background-image: url("../img/event_laptop1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#news_events > .container > .row + .row > .col:last-child > div > div:first-child {
+    width: 336px;
+    height: 250px;
+    background-image: url("../img/event_sundown.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#news_events > .container > .row:last-child > .col > div > div ~ p {
+    margin: 30px 0 27px 0;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+    display: inline-block;
+}
+#news_events > .container > .row:last-child > .col > div > div + p {
+    cursor: pointer;
+}
+#news_events > .container > .row:last-child > .col > div > div:last-child {
+    width: 336px;
+}
+#news_events > .container > .row:last-child > .col > div > div:last-child > p:first-child {
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 0 0 19px 0;
+}
+#news_events > .container > .row:last-child > .col > div > div:last-child > p:first-child + p {
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+     margin: 0 0 22px 0;
+}
+#news_events > .container > .row:last-child > .col > div > div:last-child > p:last-child {
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0 0 123px 0;
+    cursor: pointer;
+}
+
+  /*Devices - @MEDIA*/  
+@media only screen and (min-width:  1200px) {
+      
+}
+@media only screen and (min-width:  992px) {
+        
+}
+@media only screen and (min-width:  768px) {
+    
+}
+@media only screen and (max-width:  767px) {
+    
+}

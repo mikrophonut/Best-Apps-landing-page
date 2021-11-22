@@ -1,0 +1,81 @@
+/*-----------------------------------------
+    1.Section - Text element header
+    2.Section - Form elements
+    3.Devices - @MEDIA
+------------------------------------------*/
+
+    /* Section - Text element header */
+#form > .container > .row:first-child > .col > div {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+#form > .container > .row > .col > div > h2 {
+    text-transform: uppercase;
+    font-size: 63px;
+    margin: 110px 0 26px 0;
+}
+#form > .container > .row > .col > div > h2 + .separator {
+    display: inline-block;
+    width: 151px;
+    height: 2px;
+    margin: 0 0 24px 0;
+}
+#form > .container > .row:first-child > .col > div > p {
+    margin: 0 0 24px 0;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+    /* Section - Form elements */
+#form > .container > .row:last-child > .col {
+    text-align: center;
+}    
+#form > .container > .row:last-child > .col > form {
+    display: inline-block;
+    outline: none;
+}
+#form > .container > .row:last-child > .col > form > input, textarea {
+    border-style: none; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+} 
+#form > .container > .row:last-child > .col > form > input {
+    width: 340px;
+    height: 45px;
+    box-shadow: 0 4px 3px -1px #cecece;
+    margin: 0 18px 20px 0;
+    padding-left: 9px;
+}
+#form > .container > .row:last-child > .col > form > textarea {
+    width: 700px;
+    height: 366px;
+    position: relative;
+    right: 8px;
+    box-shadow: 0 4px 3px -1px #cecece;
+    margin: 0 0 30px 0;
+    padding: 7px 0 0 11px;
+}
+#form > .container > .row:last-child > .col > form > input:last-child {
+    width: 116px;
+    height: 43px;
+    box-shadow: none;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    margin-bottom: 107px;
+}
+
+  /*Devices - @MEDIA*/  
+@media only screen and (min-width:  1200px) {
+      
+}
+@media only screen and (min-width:  992px) {
+        
+}
+@media only screen and (min-width:  768px) {
+    
+}
+@media only screen and (max-width:  767px) {
+    
+}

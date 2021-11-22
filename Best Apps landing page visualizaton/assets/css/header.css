@@ -1,0 +1,128 @@
+/*-------------------------------
+    1.HEADER - Navigation line
+    2.HEADER - Search element
+    3.HEADER - Text element
+    4.Devices - @MEDIA
+-------------------------------*/
+
+    /* HEADER - Navigation line */ 
+header {
+    background-image: url('../img/night_city.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'PT Sans', sans-serif;
+}
+.nav_bar > div > p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+}
+.nav_bar > div > p:last-child {
+    font-size: 40px;
+    position: relative;
+    bottom: 17px;
+    right: 26px;
+    text-shadow: 2.5px -1.5px 10px #fff;
+}
+.nav_bar > div {
+    float: left;
+}
+.nav_bar > div[class="withe nav_element"] {
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 30px;
+}
+.nav_bar > div[class="withe nav_element"]:hover {
+    text-shadow: 1px -1px 7px #fff;
+    color: #ed8f00;
+}
+
+.nav_bar > div:first-child {
+    margin: 1px 0 0 16.15%;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.nav_bar > div:first-child + div {
+    margin: 31px 0 355px 169px;
+} 
+.nav_bar > div:first-child + div + div {
+    margin: 31px 0 355px 37px; 
+}
+.nav_bar > div:first-child + div + div + div {
+    margin: 31px 0 355px 37px;
+}
+.nav_bar > div:last-child {
+    margin: 31px 0 355px 41px;
+}
+
+    /* HEADER - Search element */
+nav + div {
+    text-align: center;
+    margin: 0 0 53px 0;
+}
+.wrapper {
+    display: inline-block;
+    position: relative;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    opacity: 0.9;
+    box-shadow: 0 0 20px #fff;
+}
+.wrapper > form > input {
+    width: 702px;
+    height: 50px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: #fff;
+    border: 0;
+    opacity: 0.9;
+    border-top-style: ridge;
+    font-size: 20px;
+}
+.wrapper > form > input[placeholder="Search here"] {
+    padding-left: 55px;
+}
+button {
+    width: 100px;
+    height: 50px;
+    position:absolute;
+    right:0;
+    top:0;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border: 0;
+    opacity: 0.9;
+    text-transform: uppercase;
+}
+nav + div > p {
+    position: relative;
+    height: 10px;
+    top: 18px;
+    right: 28%;
+    z-index: 1000;
+}
+
+    /* HEADER - Text element */
+header > .container > .row > .col-lg-12 > div:last-child {
+    text-align: center;
+    margin: 0 0 132px 0;
+    font-size: 13.5px;
+    letter-spacing: 0.6px;
+}
+
+  /*Devices - @MEDIA*/  
+@media only screen and (min-width:  1200px) {
+      
+}
+@media only screen and (min-width:  992px) {
+        
+}
+@media only screen and (min-width:  768px) {
+    
+}
+@media only screen and (max-width:  767px) {
+    
+}

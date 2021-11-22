@@ -1,0 +1,83 @@
+/*-----------------------------------------
+    1.Section - Text element header
+    2.Section - Pic elements & footer text
+    3.Devices - @MEDIA
+------------------------------------------*/
+
+    /* Section - Text element header */
+#our_team > .container > .row:first-child > .col > div {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+#our_team > .container > .row > .col > div > h2 {
+    text-transform: uppercase;
+    font-size: 63px;
+    margin: 110px 0 26px 0;
+}
+#our_team > .container > .row > .col > div > h2 + .separator {
+    display: inline-block;
+    width: 151px;
+    height: 2px;
+    margin: 0 0 27px 0;
+}
+#our_team > .container > .row:first-child > .col > div > p {
+    margin: 0 0 23px 0;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+    /* Section - Pic elements & footer text */
+#our_team > .container > .row:last-child {
+    display: flex;
+    margin: 0 auto;
+}
+#our_team > .container > .row:last-child > .col {
+    margin: 0 auto;
+}
+#our_team > .container > .row:last-child > .col > div > div {
+    width: 250px;
+    height: 250px;
+    margin: 23px 0 0 0;
+}
+#our_team > .container > .row:last-child > .col > div > div {
+    margin: 0 0 25px 0;
+    cursor: pointer;
+}
+#our_team > .container > .row:last-child > .col:first-child > div > div {
+    background-image: url("../img/our_team_web.png");
+}
+#our_team > .container > .row:last-child > .col:first-child + .col > div > div {
+    background-image: url("../img/our_team_front.png");
+}
+#our_team > .container > .row:last-child > .col:last-child > div > div {
+    background-image: url("../img/our_team_ceo.png");
+}
+#our_team > .container > .row:last-child > .col > div > div + p {
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    margin: 0 0 22px 0;
+}
+#our_team > .container > .row:last-child > .col > div > p:last-child {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 0 103px 0;
+}
+
+  /*Devices - @MEDIA*/  
+@media only screen and (min-width:  1200px) {
+      
+}
+@media only screen and (min-width:  992px) {
+        
+}
+@media only screen and (min-width:  768px) {
+    
+}
+@media only screen and (max-width:  767px) {
+    
+}

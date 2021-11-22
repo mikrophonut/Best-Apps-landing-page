@@ -1,0 +1,145 @@
+/*-------------------------------
+    1.Section - Text elements
+    2.Section - Services elements
+    3.Devices - @MEDIA
+-------------------------------*/
+
+    /* Section - Text elements */ 
+#services > .container > .row > .col-xl-12 > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 111px 0 20px 0;
+    font-size: 63px;
+}
+#services .separator {
+    display: block;
+    margin: 0 auto;
+    width: 151px;
+    height: 2px;
+    margin-bottom: 24px;
+}
+#services .separator + div > p {
+    text-align: center;
+    font-weight: bold;
+}
+#services .separator + div {
+    margin-bottom: 22px;
+}
+
+    /* Section - Services elements */
+#services .row:last-child {
+    display: flex;
+}
+#services .row:last-child > div {
+    margin: 0 auto;
+}
+#services .row:last-child > .col:first-child > div {
+    margin: 0;
+}
+#services .row:last-child > div:first-child + div {
+    width: 223px;
+    height: 452px;
+    border: 3px solid #b7b7b7;
+    border-radius: 30px;
+    margin: 0 0 100px 0;
+}
+#services .row:last-child > div:first-child + div > .iPhone {
+    width: 210px;
+    height: 362px;
+    margin: 0 auto;
+    background-image: url('../img/iPhone_pic.jpg');
+    background-size: cover;
+}
+#services .iPhone_button {
+    width: 1px;
+    height: 27px;
+    position: relative;
+    bottom: 357px;
+    left: 220px;
+}
+
+#services .row:last-child > div:first-child + div > div:first-child {
+    margin: 7px 0 0 0;
+}
+#services .row:last-child > div:first-child + div > div:first-child > p {
+    width: 5px;
+    height: 5px;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+#services .row:last-child > div:first-child + div > div:first-child + div {
+    margin: 7px 0 5px 0;   
+    text-align: center;
+}
+#services .row:last-child > div:first-child + div > div:first-child + div > p:first-child {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 6px;
+    border-radius: 6px;
+}
+#services .row:last-child > div:first-child + div > div:first-child + div > p:last-child {
+    display: inline-block;
+    width: 33px;
+    height: 2px;
+    margin: 0 0 0 5px; 
+    position: relative;
+    bottom: 2px;
+    border-radius: 1px;
+}
+#services .iPhone + div {
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    border-top: 1px solid #9f9f9f;
+    border-right: 1px solid #9f9f9f;
+    border-bottom: 1px solid #9f9f9f;
+    border-left: 1px solid #9f9f9f;
+    border-radius: 20px;
+    margin-top: 7px;
+}
+#services .row:last-child > .col-xl-12:first-child > div > div > p {
+    display: inline-block;
+    margin: 0 0 0 9px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+#services .row:last-child > .col-xl-12:first-child > div > p {
+    margin: 0 11px 8px 60px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+#services .row:last-child > .col-xl-12:last-child > div > div > p {
+    display: inline-block;
+    margin: 0 0 0 9px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 18px;
+    cursor: pointer;
+}
+#services .row:last-child > .col-xl-12:last-child > div > p {
+    margin: 0 0 8px 60px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+  /*Devices - @MEDIA*/  
+@media only screen and (min-width:  1200px) {
+      
+}
+@media only screen and (min-width:  992px) {
+        
+}
+@media only screen and (min-width:  768px) {
+    
+}
+@media only screen and (max-width:  767px) {
+    
+}

@@ -1,0 +1,81 @@
+/*-----------------------------------------
+    1.Section - Text element header
+    2.Section - Icon elements & footer text
+    3.Devices - @MEDIA
+------------------------------------------*/
+footer > .container > .row > .col {
+    margin: 0 auto;
+}
+footer > .container > .row > .col > div > div {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 82px 0 0 0;
+}
+footer > .container > .row > .col > div > div > p:last-child {
+    font-size: 40px;
+    position: relative;
+    bottom: 16px;
+    right: 15px;
+    text-shadow: 2.5px -1.5px 10px #fff;
+    margin: 0 0 5px 0;   
+}
+footer > .container > .row > .col > div > p {
+    text-align: center;
+    margin: 0 0 26px 0;  
+}
+
+    /* Icon elements & footer text */
+footer > .container > .row:last-child > .col > div:first-child {
+    text-align: center;
+}
+
+footer > .container > .row:last-child > .col > div:first-child > div {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin: 0 9px 16px 0;
+}
+footer > .container > .row:last-child > .col > div:first-child + div {
+    margin: 0 0 73px 0;
+}
+footer > .container > .row:last-child > .col > div:first-child > div {
+    cursor: pointer;
+}
+footer > .container > .row:last-child > .col > div:first-child > div:first-child {
+    background-image: url("../img/facebook_icon.png");
+}
+footer > .container > .row:last-child > .col > div:first-child > div:first-child + div {
+    background-image: url("../img/twitter_icon.png");
+}
+footer > .container > .row:last-child > .col > div:first-child > div:first-child + div + div {
+    background-image: url("../img/google_icon.png");
+}
+footer > .container > .row:last-child > .col > div:first-child > div:last-child {
+    background-image: url("../img/git_icon.png");
+}
+footer > .container > .row:last-child > .col > div:first-child + div > p:first-letter {
+    text-transform: capitalize;
+}
+footer > .container > .row:last-child > .col > div:last-child {
+    margin: 0 0 41px 0;
+    text-align: center;
+}
+footer > .container > .row:last-child > .col > div:last-child > p {
+    display: inline-block;
+} 
+
+    /*Devices - @MEDIA*/  
+@media only screen and (min-width:  1200px) {
+      
+}
+@media only screen and (min-width:  992px) {
+        
+}
+@media only screen and (min-width:  768px) {
+    
+}
+@media only screen and (max-width:  767px) {
+    
+}

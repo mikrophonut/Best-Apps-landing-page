@@ -1,0 +1,71 @@
+/*-------------------------------
+    1.Section - Text elements
+    2.Section - Button elements
+    3.Devices - @MEDIA
+-------------------------------*/
+
+    /*Section - Text elements*/
+#we_are_redy {
+    background-image: url("../img/weAreRedy.svg");
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+#we_are_redy > .container > .row > .col > h2 {
+    text-transform: uppercase;
+    font-size: 63px;
+    font-weight: normal;
+    text-align: center;
+    margin: 111px 0 27px 0;
+}
+#we_are_redy > .container > .row > .col > h2 + .separator {
+    display: block;
+    margin: 0 auto;
+    width: 151px;
+    height: 2px;
+    margin-bottom: 27px;
+}
+#we_are_redy > .container > .row > .col > h2 + .separator + div > p {
+    margin-bottom: 23px;
+    font-family: 'PT Sans', sans-serif;
+}
+#we_are_redy > .container > .row > .col > div:last-child {
+    text-align: center;
+    margin: 0 0 100px 0;
+}
+#we_are_redy > .container > .row > .col > div:last-child > div:first-child {
+    margin: 0 23px 0 0;
+}
+
+    /* Section - Button elements */
+#we_are_redy > .container > .row > .col > div:last-child > div {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 26px;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bolder;
+    padding: 12px;
+    cursor: pointer;
+}
+#we_are_redy > .container > .row > .col > div:last-child > div:hover {
+    background-color: #000;
+    color: #dbac5a;
+    box-shadow: 0 0 10px #fff;
+}
+
+  /*Devices - @MEDIA*/  
+@media only screen and (min-width:  1200px) {
+      
+}
+@media only screen and (min-width:  992px) {
+        
+}
+@media only screen and (min-width:  768px) {
+    
+}
+@media only screen and (max-width:  767px) {
+    
+}
